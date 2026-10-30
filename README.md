@@ -206,17 +206,17 @@ Example response from the API reference, abridged — real values depend on the 
     }
   },
   "seller": {
-    "id": 20068,
-    "type": "Dealer",
+    "id": 0,
+    "type": "example",
     "phones": [
       {
-        "call_to": "+497542987498700",
-        "phone_type": "Office",
-        "formatted_number": "+49 (0)754 - 2987498700"
+        "call_to": "example",
+        "phone_type": "example",
+        "formatted_number": "example"
       }
     ],
     "is_dealer": true,
-    "company_name": "J. Müller Automobile"
+    "company_name": "example"
   },
   "status": "Inactive",
   "vehicle": {
