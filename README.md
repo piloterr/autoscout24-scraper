@@ -69,7 +69,7 @@ response = requests.get(
     params={
         "query": "https://www.autoscout24.fr/offres/porsche-macan-s-diesel-pano-1-hand-diesel-or-cat_ma57mo20311-547632b2-e4fc-47f3-8143-1a2d7b276366",
     },
-    timeout=60,
+    timeout=120,
 )
 response.raise_for_status()
 data = response.json()
@@ -303,7 +303,7 @@ response = requests.get(
     params={
         "query": "https://www.autoscout24.fr/lst/volkswagen/golf?atype=C",
     },
-    timeout=60,
+    timeout=120,
 )
 response.raise_for_status()
 data = response.json()
